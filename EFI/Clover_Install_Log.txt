@@ -1,0 +1,59 @@
+
+Clover EFI installer log - Fri Dec 20 10:38:28 CST 2019
+Installer version: v2.5k r5100 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk0
+   1:                        EFI ESP_SSD                 524.3 MB   disk0s1
+   2:         Microsoft Reserved                         134.2 MB   disk0s2
+   3:       Microsoft Basic Data WIN10_SSD               53.9 GB    disk0s3
+   4:                 Apple_APFS Container disk2         64.4 GB    disk0s4
+   5:       Microsoft Basic Data EFI_SSD                 1.1 GB     disk0s5
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk1
+   1:                        EFI ESP_HD500               1.1 GB     disk1s1
+   2:                 Apple_APFS Container disk3         64.4 GB    disk1s2
+   3:       Microsoft Basic Data WIN10_HDD               85.9 GB    disk1s3
+   4:       Microsoft Basic Data winwork                 107.4 GB   disk1s4
+   5:                  Apple_HFS macfiles                107.2 GB   disk1s5
+   6:       Microsoft Basic Data 交换空间                10.7 GB    disk1s6
+   7:                  Apple_HFS MAC数据备份             113.4 GB   disk1s7
+   8:                  Apple_HFS Install macOS High S... 8.5 GB     disk1s8
+   9:       Microsoft Basic Data EFI_HDWIN               629.1 MB   disk1s9
+  10:       Microsoft Basic Data EFI_CLOVER              713.0 MB   disk1s10
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +64.4 GB    disk2
+                                 Physical Store disk0s4
+   1:                APFS Volume MAC_SSD - Data          19.5 GB    disk2s1
+   2:                APFS Volume Preboot                 82.4 MB    disk2s2
+   3:                APFS Volume Recovery                528.5 MB   disk2s3
+   4:                APFS Volume VM                      3.2 GB     disk2s4
+   5:                APFS Volume MAC_SSD                 11.0 GB    disk2s5
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +64.4 GB    disk3
+                                 Physical Store disk1s2
+   1:                APFS Volume MAC                     13.7 GB    disk3s1
+   2:                APFS Volume Preboot                 21.8 MB    disk3s2
+   3:                APFS Volume Recovery                512.8 MB   disk3s3
+   4:                APFS Volume VM                      2.1 GB     disk3s4
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/EFI_SSD/EFIROOTDIR/EFI folder to /Volumes/EFI_SSD/EFI-Backups/r5097/2019-12-20-10h38/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/EFI_SSD
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/EFI_SSD
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
