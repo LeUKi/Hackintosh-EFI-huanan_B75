@@ -1,3 +1,4 @@
+# 适用于华南金牌B75，其他相关型号主板亦可参考。
 >   Aduanced
 >   >   PCI Subsustem Settings
 >   >
