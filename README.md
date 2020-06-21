@@ -1,4 +1,5 @@
 # Hackintosh-EFI-huanan_B75
+求star！（虽然不知道有啥用）
 ## 硬件配置
 - CPU	Intel E3 1230 v2
 - 主板	华南金牌B75
