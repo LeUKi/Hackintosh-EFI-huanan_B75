@@ -7,6 +7,7 @@
 - 网卡	BCM94360CD	
 
 ## 安装简要
+- ![主板bios设置](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75/blob/master/B75-Bios-setting.md)
 - 镜像用balenaEtcher刷进U盘
 - 在macos环境下用disktuil指令挂载U盘的EFI分区（Windows用第三方工具）
 - 替换U盘的EFI文件（驱动完善差不多了，需要最后自取）
