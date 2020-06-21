@@ -1,5 +1,6 @@
 # Hackintosh-EFI-huanan_B75
 求star！（虽然不知道有啥用）
+
 ## 硬件配置
 - CPU	Intel E3 1230 v2
 - 主板	华南金牌B75
@@ -22,4 +23,8 @@ sudo disktuil mount diskXsX
 sudo disktuil unmount diskXsX
 ```
 
-    
+## 更新
+- 1.3 修复config中内存信息残留导致的开机报错
+- 1.2 更新clover5119;更新驱动;添加-v参数以支持新安装
+- 1.1 支援 macOS 10.15.4 19E287
+- 1.0 支援 macOS 10.15.3 19E266
