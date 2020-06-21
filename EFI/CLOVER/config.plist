@@ -603,42 +603,6 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Modules</key>
-			<array>
-				<dict>
-					<key>Frequency</key>
-					<integer>1600</integer>
-					<key>Part</key>
-					<string>CM3X8GB1600C11N2</string>
-					<key>Serial</key>
-					<string>00000A0D0B0A0401</string>
-					<key>Size</key>
-					<integer>8192</integer>
-					<key>Slot</key>
-					<integer>0</integer>
-					<key>Type</key>
-					<string>DDR3</string>
-					<key>Vendor</key>
-					<string>Corsair</string>
-				</dict>
-				<dict>
-					<key>Frequency</key>
-					<integer>1600</integer>
-					<key>Part</key>
-					<string>CM3X8GB1600C11N2</string>
-					<key>Size</key>
-					<integer>8192</integer>
-					<key>Slot</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<string>DDR3</string>
-					<key>Vendor</key>
-					<string>Corsair</string>
-				</dict>
-			</array>
-		</dict>
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
