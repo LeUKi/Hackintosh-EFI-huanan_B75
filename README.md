@@ -1,6 +1,12 @@
 # Hackintosh-EFI-huanan_B75
 求star！（虽然不知道有啥用）
 
+## 已知的反馈
+- 兼容CPU E3 1230 v3
+- 兼容主板 MSI B85-G43
+- 可支援MacOS 10.15.6
+- rx460 DP输出可能黑屏 HDMI正常
+
 ## 硬件配置
 - CPU	Intel E3 1230 v2
 - 主板	华南金牌B75
