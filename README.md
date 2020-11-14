@@ -4,7 +4,7 @@
 ## 已知的反馈
 - 兼容CPU E3 1230 v3
 - 兼容主板 MSI B85-G43
-- 可支援MacOS 10.15.6
+- 可支援MacOS Big Sur
 - rx460 DP输出可能黑屏 HDMI正常
 
 ## 硬件配置
