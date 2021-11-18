@@ -17,13 +17,13 @@
 - 网卡	BCM94360CD
 
 ## 安装简要
-- [主板bios设置](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75/blob/master/B75-Bios-setting.md)
-- 镜像用balenaEtcher刷进U盘
+- 用balenaEtcher将镜像刷进U盘
+- 从[releases](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75/releases)下载对应系统版本的EFI
 - 在macos环境下用disktuil指令挂载U盘的EFI分区（Windows用第三方工具）
-- 替换U盘的EFI文件（驱动完善差不多了，需要最后自取）
-- 插到主板USB2.0接口，关闭应该关闭的BIOS选项，U盘启动
+- 用本仓库的EFI替换U盘的EFI
+- [主板bios设置](https://github.com/LeUKi/Hackintosh-EFI-huanan_B75/blob/master/B75-Bios-setting.md)，插到主板USB2.0接口，U盘启动，
 - 如果正确替换了EFI就能进到安装界面了，剩下的就是常规流程
-- 安装完系统后，同样使用disktuil指令挂载安装盘的EFI分区，把U盘的EFI文件替换进去（这里可能涉及两次的分区挂卸载，在没有Clover configurator软件的时候只能这样手动输入）
+- 安装完系统后，同样使用disktuil指令挂载安装盘的EFI分区，把U盘的EFI文件替换进去（这里可能涉及两次的分区挂卸载，在没有CloverConfigurator或者OpenCoreConfigurator软件的时候只能这样手动输入）
 
 ```bash
 disktuil list
@@ -32,7 +32,7 @@ sudo disktuil unmount diskXsX
 ```
 
 ## 更新
-- 2.1 更新OpenCore7.5 支援 macOS 12.0.1 Monterey 正式版 21A559
+- 2.1 更新OpenCore0.7.5 支援 macOS 12.0.1 Monterey 正式版 21A559
 - 2.0 转OpenCore 支援 macOS 11.0.1 Big Sur Developer beta11 20B5012d
 - 1.3 修复config中内存信息残留导致的开机报错
 - 1.2 更新clover5119;更新驱动;添加-v参数以支持新安装
